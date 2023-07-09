@@ -3,7 +3,7 @@
 }
 
 body {
-    outline: blue solid 4px;
+    /* outline: blue solid 4px; */
     color: white;
     background-image: url("/images/rainbow.jpg");
     background-size: cover;
@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    outline: red solid 6px;
+    /* outline: red solid 6px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,26 +22,21 @@ main {
 }
 
 h1{
-    outline: red solid 2px;
+    /* outline: red solid 2px; */
     font-size: 6rem;
     color: black;
     font-weight: 500;
 }
 
 h2{
-    outline: blue solid 2px;
+    /* outline: blue solid 2px; */
     font-size: 4rem;
     color: black;
 }
 
-.container {
-    outline: yellow solid 4px;
-    width: 50%;
-    aspect-ratio: 1;
-    background-image: url('./images/close.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+img {
+    /* outline: yellow solid 4px; */
+    width: 40%;
     cursor: pointer;
 }
 
@@ -56,8 +51,3 @@ h2{
     cursor: pointer;
 }
 
-/* POPCAT image */
-.catOpenMouth {
-    background-image: url("/images/open.png");
-    background-size: contain;
-}
