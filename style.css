@@ -5,7 +5,7 @@
 body {
     /* outline: blue solid 4px; */
     color: white;
-    background-image: url("/images/rainbow.jpg");
+    background-image: url("./images/rainbow.jpg");
     background-size: cover;
     font-family: 'Gochi Hand', cursive;
 }
